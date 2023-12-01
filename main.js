@@ -19,3 +19,4 @@ document.addEventListener('DOMContentLoaded', function() {
   // Cambia la imagen cada 3 segundos (ajusta según sea necesario)
   setInterval(nextSlide, 3000);
 });
+// esto es una pruba de branch
