@@ -1,0 +1,152 @@
+/* Reset de estilos básicos */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Fondo blanco */
+}
+
+/* Sección superior con información de contacto */
+.contact-info {
+  background-color: #3498db; /* Azul */
+  color: #ffffff; /* Texto blanco */
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between; /* Alineación horizontal */
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+  background-color: #f2f2f2; /* Gris */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px; /* Tamaño del texto del logo */
+  font-weight: bold; /* Peso de la fuente */
+  color: #333; /* Color del texto del logo */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.logo:hover {
+  color: #3498db; /* Cambio de color al pasar el mouse sobre el logo */
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.language-switch {
+  color: #3498db; /* Cambio de color */
+}
+
+/* Header con slider de pantalla completa */
+.fullscreen-slider {
+  height: 50vh; /* Ajusta según sea necesario */
+  overflow: hidden; /* Para ocultar cualquier contenido que se desborde del contenedor */
+}
+
+.slide {
+  display: none;
+  height: 100%; /* O ajusta a un valor específico según tus necesidades */
+}
+
+.slide img {
+  width: 100%;
+  height: 100%; /* O ajusta a un valor específico según tus necesidades */
+  object-fit: cover; /* Para que la imagen se ajuste y se recorte según el tamaño del contenedor */
+}
+
+/* Sección de Accesos */
+.access-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 200px; /* Ajusta según sea necesario */
+  height: 300px; /* Ajusta según sea necesario */
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+/* Galería de Proyectos */
+.project-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Sección de Procesos */
+.process-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Sección de Contacto */
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-info,
+.contact-form {
+  /* Estilos específicos para las partes de la sección de contacto */
+}
+
+/* Mapa interactivo de Google Maps */
+.map-section {
+  /* Estilos para la sección del mapa interactivo */
+  /* Puedes personalizar según sea necesario para el mapa */
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2; /* Gris */
+  padding: 10px;
+}
+
+.footer-section {
+  /* Estilos para cada sección del footer */
+}
+
+.footer-menu {
+  list-style: none;
+  display: flex;
+}
+
+.footer-menu li {
+  margin: 0 15px;
+}
