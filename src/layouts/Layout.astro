@@ -1,0 +1,45 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="bg-slate-800">
+		<!-- contacto barra -->
+		<section class="text-2xl">
+			<p>Correo: correo@example.com</p>
+			<p>Número de Teléfono: +123 456 789</p>
+			<button>COTIZA</button>
+		</section>
+		<!-- galleria -->
+		<div class="rounded-lg grid grid-flow-col grid-rows-2 grid-cols-3 gap-8">
+			<div>
+			  <img class="rounded-lg" src="assets/1.jpeg" alt="" loading="lazy">
+			</div>
+			<div class="col-start-3">
+			  <img src="assets/2.jpeg" alt="" loading="lazy">
+			</div>
+			<div>
+			  <img src="assets/3.jpeg" alt="" loading="lazy">
+			</div>
+			<div>
+			  <img src="assets/4.jpeg" alt="" loading="lazy">
+			</div>
+			<div class="row-start-1 col-start-2 col-span-2">
+			  <img src="assets/5.jpeg" alt="" loading="lazy">
+			</div>
+		  </div>
+	</body>
+</html>
